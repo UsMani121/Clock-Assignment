@@ -9,21 +9,39 @@
 /* Begin PBXBuildFile section */
 		E49C4E4E2695B0C200E2FA5C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49C4E4D2695B0C200E2FA5C /* AppDelegate.swift */; };
 		E49C4E502695B0C200E2FA5C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49C4E4F2695B0C200E2FA5C /* SceneDelegate.swift */; };
-		E49C4E522695B0C200E2FA5C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49C4E512695B0C200E2FA5C /* ViewController.swift */; };
+		E49C4E522695B0C200E2FA5C /* WorldClockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49C4E512695B0C200E2FA5C /* WorldClockViewController.swift */; };
 		E49C4E552695B0C200E2FA5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E49C4E532695B0C200E2FA5C /* Main.storyboard */; };
 		E49C4E572695B0C300E2FA5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E49C4E562695B0C300E2FA5C /* Assets.xcassets */; };
 		E49C4E5A2695B0C300E2FA5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E49C4E582695B0C300E2FA5C /* LaunchScreen.storyboard */; };
+		E49C4E672695BFED00E2FA5C /* WorldClockCustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49C4E662695BFED00E2FA5C /* WorldClockCustomTableViewCell.swift */; };
+		E49C4E692695C5F000E2FA5C /* CountryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49C4E682695C5F000E2FA5C /* CountryListViewController.swift */; };
+		E4C332262696DD9D0012F47D /* WorldClockModelClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C332252696DD9D0012F47D /* WorldClockModelClass.swift */; };
+		E4C3322826970A190012F47D /* StopWatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C3322726970A190012F47D /* StopWatchViewController.swift */; };
+		E4C3322A269718B60012F47D /* CustomUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C33229269718B60012F47D /* CustomUIButton.swift */; };
+		E4CD6FB626982B6600059BBD /* Json File.json in Resources */ = {isa = PBXBuildFile; fileRef = E4CD6FB526982B6600059BBD /* Json File.json */; };
+		E4CD6FBA2698316700059BBD /* CountriesJsonDataModelClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CD6FB92698316700059BBD /* CountriesJsonDataModelClass.swift */; };
+		E4CD6FBE26985BDB00059BBD /* StopWatchCustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CD6FBD26985BDB00059BBD /* StopWatchCustomTableViewCell.swift */; };
+		E4CD6FC02698649200059BBD /* LapCountingModelClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CD6FBF2698649200059BBD /* LapCountingModelClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E49C4E4A2695B0C200E2FA5C /* Clock Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Clock Assignment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E49C4E4D2695B0C200E2FA5C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E49C4E4F2695B0C200E2FA5C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E49C4E512695B0C200E2FA5C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E49C4E512695B0C200E2FA5C /* WorldClockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldClockViewController.swift; sourceTree = "<group>"; };
 		E49C4E542695B0C200E2FA5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E49C4E562695B0C300E2FA5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E49C4E592695B0C300E2FA5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E49C4E5B2695B0C300E2FA5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E49C4E662695BFED00E2FA5C /* WorldClockCustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldClockCustomTableViewCell.swift; sourceTree = "<group>"; };
+		E49C4E682695C5F000E2FA5C /* CountryListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListViewController.swift; sourceTree = "<group>"; };
+		E4C332252696DD9D0012F47D /* WorldClockModelClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldClockModelClass.swift; sourceTree = "<group>"; };
+		E4C3322726970A190012F47D /* StopWatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatchViewController.swift; sourceTree = "<group>"; };
+		E4C33229269718B60012F47D /* CustomUIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomUIButton.swift; sourceTree = "<group>"; };
+		E4CD6FB526982B6600059BBD /* Json File.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = "Json File.json"; path = "Clock Assignment/Json File.json"; sourceTree = "<group>"; };
+		E4CD6FB92698316700059BBD /* CountriesJsonDataModelClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesJsonDataModelClass.swift; sourceTree = "<group>"; };
+		E4CD6FBD26985BDB00059BBD /* StopWatchCustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatchCustomTableViewCell.swift; sourceTree = "<group>"; };
+		E4CD6FBF2698649200059BBD /* LapCountingModelClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LapCountingModelClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +58,7 @@
 		E49C4E412695B0C200E2FA5C = {
 			isa = PBXGroup;
 			children = (
+				E4CD6FB526982B6600059BBD /* Json File.json */,
 				E49C4E4C2695B0C200E2FA5C /* Clock Assignment */,
 				E49C4E4B2695B0C200E2FA5C /* Products */,
 			);
@@ -56,15 +75,63 @@
 		E49C4E4C2695B0C200E2FA5C /* Clock Assignment */ = {
 			isa = PBXGroup;
 			children = (
+				E4C3322B269718C10012F47D /* Custom Button Classes */,
+				E49C4E652695BFBF00E2FA5C /* Custom Cells */,
+				E49C4E642695B10E00E2FA5C /* Model Classes */,
+				E49C4E632695B0FC00E2FA5C /* StoryBoards */,
+				E49C4E612695B0DE00E2FA5C /* View Controllers */,
 				E49C4E4D2695B0C200E2FA5C /* AppDelegate.swift */,
 				E49C4E4F2695B0C200E2FA5C /* SceneDelegate.swift */,
-				E49C4E512695B0C200E2FA5C /* ViewController.swift */,
-				E49C4E532695B0C200E2FA5C /* Main.storyboard */,
 				E49C4E562695B0C300E2FA5C /* Assets.xcassets */,
-				E49C4E582695B0C300E2FA5C /* LaunchScreen.storyboard */,
 				E49C4E5B2695B0C300E2FA5C /* Info.plist */,
 			);
 			path = "Clock Assignment";
+			sourceTree = "<group>";
+		};
+		E49C4E612695B0DE00E2FA5C /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E49C4E512695B0C200E2FA5C /* WorldClockViewController.swift */,
+				E4C3322726970A190012F47D /* StopWatchViewController.swift */,
+				E49C4E682695C5F000E2FA5C /* CountryListViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		E49C4E632695B0FC00E2FA5C /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				E49C4E532695B0C200E2FA5C /* Main.storyboard */,
+				E49C4E582695B0C300E2FA5C /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		E49C4E642695B10E00E2FA5C /* Model Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E4C332252696DD9D0012F47D /* WorldClockModelClass.swift */,
+				E4CD6FB92698316700059BBD /* CountriesJsonDataModelClass.swift */,
+				E4CD6FBF2698649200059BBD /* LapCountingModelClass.swift */,
+			);
+			path = "Model Classes";
+			sourceTree = "<group>";
+		};
+		E49C4E652695BFBF00E2FA5C /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+				E49C4E662695BFED00E2FA5C /* WorldClockCustomTableViewCell.swift */,
+				E4CD6FBD26985BDB00059BBD /* StopWatchCustomTableViewCell.swift */,
+			);
+			path = "Custom Cells";
+			sourceTree = "<group>";
+		};
+		E4C3322B269718C10012F47D /* Custom Button Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E4C33229269718B60012F47D /* CustomUIButton.swift */,
+			);
+			path = "Custom Button Classes";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +191,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4CD6FB626982B6600059BBD /* Json File.json in Resources */,
 				E49C4E5A2695B0C300E2FA5C /* LaunchScreen.storyboard in Resources */,
 				E49C4E572695B0C300E2FA5C /* Assets.xcassets in Resources */,
 				E49C4E552695B0C200E2FA5C /* Main.storyboard in Resources */,
@@ -137,8 +205,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E49C4E522695B0C200E2FA5C /* ViewController.swift in Sources */,
+				E4CD6FC02698649200059BBD /* LapCountingModelClass.swift in Sources */,
+				E49C4E672695BFED00E2FA5C /* WorldClockCustomTableViewCell.swift in Sources */,
+				E49C4E692695C5F000E2FA5C /* CountryListViewController.swift in Sources */,
+				E4CD6FBE26985BDB00059BBD /* StopWatchCustomTableViewCell.swift in Sources */,
+				E49C4E522695B0C200E2FA5C /* WorldClockViewController.swift in Sources */,
 				E49C4E4E2695B0C200E2FA5C /* AppDelegate.swift in Sources */,
+				E4CD6FBA2698316700059BBD /* CountriesJsonDataModelClass.swift in Sources */,
+				E4C3322A269718B60012F47D /* CustomUIButton.swift in Sources */,
+				E4C332262696DD9D0012F47D /* WorldClockModelClass.swift in Sources */,
+				E4C3322826970A190012F47D /* StopWatchViewController.swift in Sources */,
 				E49C4E502695B0C200E2FA5C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,7 +371,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.usman-development.Clock-Assignment";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -313,7 +389,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.usman-development.Clock-Assignment";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
